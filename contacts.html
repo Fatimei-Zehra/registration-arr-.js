@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/contacts.css">
+</head>
+
+<body>
+    <div id="contact">
+        <h2>Hello,<span class="user">Fatya</span></h2>
+       <form action="#" id="contact-form">
+        <div class="form-group">
+            <input type="text" placeholder="Name" id="contact-name">
+            <input type="text" placeholder="Surname" id="contact-surname">
+            <input type="email" placeholder="Email" id="contact-email">
+            <input type="number" placeholder="Phone number" id="contact-phone">
+        </div>
+        <button id="add-contact">Add contact</button>
+       </form>
+
+       <div id="contact-table">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="table-tbody">
+                <tr>
+                    <td>Zehra</td>
+                    <td>Ali</td>
+                    <td>zehraali@mail.ru</td>
+                    <td>0772117101</td>
+                    <td><button id="delete-btn">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+       </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
